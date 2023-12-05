@@ -22,7 +22,7 @@ if(isset($_GET['id'])){
                     <fieldset class="border-bottom">
                         <div class="row">
                             <div class="form-group col-md-4">
-                                <label for="roll" class="control-label">Student Roll</label>
+                                <label for="roll" class="control-label">Student Reg No</label>
                                 <input type="text" name="roll" id="roll" autofocus value="<?= isset($roll) ? $roll : "" ?>" class="form-control form-control-sm rounded-0" required>
                             </div>
                         </div>
